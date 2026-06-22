@@ -330,7 +330,3 @@ Front-End Development Internship Project
 **ApexPlanet Software Pvt. Ltd.**
 
 Built with ❤️ using **HTML5, CSS3, and Vanilla JavaScript**.
-
-## Test
-
-![Home](assets/screenshots/home.png)
