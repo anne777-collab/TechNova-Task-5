@@ -1,28 +1,36 @@
-# 🚀 TechNova – Task 4
+# 🚀 TechNova
 
-A modern, responsive multi-page web application built using **HTML5, CSS3, and Vanilla JavaScript** as part of the ApexPlanet Software Pvt. Ltd. internship program.
+A modern, responsive multi-page e-commerce web application built using **HTML5, CSS3, and Vanilla JavaScript (ES6 Modules)** as part of the **ApexPlanet Software Pvt. Ltd. Front-End Development Internship**.
 
-Task 4 focuses on **Performance Optimization, SEO, Accessibility, and Code Quality**, while preserving all features developed in previous tasks, including the Weather Dashboard, Todo Manager, Product Catalog, responsive navigation, dark mode, and interactive UI components.
+TechNova demonstrates modern front-end development practices through a responsive UI, interactive product browsing, weather integration, task management, dark mode, accessibility improvements, SEO optimization, and performance enhancements.
+
+---
+
+## 🌐 Live Demo
+
+**Live Website:** `<LIVE_DEMO_URL>`
+
+**GitHub Repository:** `<YOUR_GITHUB_REPOSITORY_URL>`
 
 ---
 
 # 📌 Project Overview
 
-TechNova is a responsive electronics storefront designed to demonstrate modern front-end development practices.
+TechNova is a premium electronics storefront designed to provide an engaging shopping experience while showcasing modern front-end development skills.
 
-This task enhances the application by improving website performance, search engine optimization, accessibility, and overall code organization. The project follows modular architecture, semantic HTML, reusable CSS, and modern JavaScript practices to provide a scalable and maintainable codebase.
+The project was developed throughout the internship in multiple phases, gradually adding responsive layouts, interactive JavaScript features, API integration, performance optimization, accessibility improvements, and clean code organization.
 
 ---
 
 # ✨ Features
 
-## 🛍️ Product Experience
+## 🛍️ Product Catalog
 
-* Responsive product catalog
-* Search products
+* Responsive product listing
+* Product search
 * Category filtering
 * Product sorting
-* Product quick-view modal
+* Product Quick View modal
 * Responsive product cards
 * Smooth animations
 
@@ -39,91 +47,89 @@ This task enhances the application by improving website performance, search engi
 * Atmospheric pressure
 * Visibility
 * Sunrise & Sunset
-* Weather description
 * Weather icons
 * Input validation
-* Responsive weather interface
+* Responsive interface
 
 ---
 
 ## ✅ Todo Manager
 
-* Add new tasks
+* Add tasks
 * Edit tasks
 * Delete tasks
 * Mark tasks as completed
-* Search tasks instantly
+* Search tasks
 * Filter (All / Active / Completed)
 * Mark all tasks complete
 * Clear completed tasks
-* Automatic progress tracking
-* Local Storage persistence
+* Progress tracking
+* Local Storage support
 
 ---
 
 ## 🎨 User Interface
 
-* Fully responsive layout
-* Mobile-first design
+* Fully responsive design
+* Mobile-first layout
 * Dark & Light mode
 * Responsive navigation
-* Interactive sliders
-* Product preview modal
-* Smooth transitions
-* Modern card-based UI
+* Hero slider
+* Interactive animations
+* Modern UI components
+* Contact form
+* About page
+* Smooth scrolling
 
 ---
 
-# ⚡ Performance Optimization
+## ⚡ Performance Optimization
 
-* Optimized CSS and JavaScript structure
-* Lazy loading for images
+* Optimized CSS architecture
+* Modular JavaScript
+* Lazy loading images
+* Optimized assets
 * Reduced render-blocking resources
-* Minified assets
-* Improved loading performance
-* Optimized DOM structure
-* Google Lighthouse Performance Score: **100**
+* Faster loading time
+* Clean DOM structure
 
 ---
 
-# 🔍 SEO Improvements
+## 🔍 SEO Optimization
 
 * Optimized page titles
-* Meta description
+* Meta descriptions
 * Meta keywords
-* Author metadata
 * Open Graph tags
-* Favicon support
 * robots.txt
 * sitemap.xml
-* Semantic HTML structure
+* Semantic HTML
+* Favicon support
 
 ---
 
-# ♿ Accessibility
+## ♿ Accessibility
 
-* Semantic HTML elements
+* Semantic HTML
 * ARIA labels
-* Alt text for images
 * Keyboard-friendly navigation
+* Image alt text
 * Improved accessibility practices
-* Lighthouse Accessibility Score: **96**
 
 ---
 
-# 🧹 Code Organization
+## 🧹 Code Quality
 
-* CSS split into multiple modules
-* JavaScript split into reusable modules
-* BEM naming convention
-* Clean project structure
+* Modular CSS
+* ES6 JavaScript Modules
 * Reusable utility functions
-* Organized folder hierarchy
-* Cleaner and maintainable code
+* BEM naming convention
+* Organized folder structure
+* Maintainable codebase
 
 ---
 
-# 🛠️ Technologies Used
+# 🛠️ Tech Stack
 
 * HTML5
 * CSS3
@@ -136,44 +142,24 @@ This task enhances the application by improving website performance, search engi
 
 # 📂 Project Structure
 
-```
+```text
 TechNova/
 │
+├── assets/
+│   └── screenshots/
+│
 ├── css/
-│   ├── base.css
-│   ├── header.css
-│   ├── footer.css
-│   ├── home.css
-│   ├── products.css
-│   ├── about.css
-│   ├── contact.css
-│   ├── weather.css
-│   ├── todo.css
-│   └── responsive.css
 │
 ├── images/
 │
 ├── js/
-│   ├── api.js
-│   ├── ui.js
-│   ├── utils.js
-│   ├── weather.js
-│   ├── todo.js
-│   ├── products.js
-│   ├── theme.js
-│   ├── navigation.js
-│   ├── slider.js
-│   ├── modal.js
-│   ├── validation.js
-│   ├── config.example.js
-│   └── config.js (ignored)
 │
 ├── index.html
 ├── products.html
 ├── about.html
+├── contact.html
 ├── weather.html
 ├── todo.html
-├── contact.html
 ├── robots.txt
 ├── sitemap.xml
 ├── .gitignore
@@ -182,55 +168,77 @@ TechNova/
 
 ---
 
+# 📸 Screenshots
+
+| Home                             | Products                             |
+| -------------------------------- | ------------------------------------ |
+| ![](assets/screenshots/home.png) | ![](assets/screenshots/products.png) |
+
+| About                             | Contact                             |
+| --------------------------------- | ----------------------------------- |
+| ![](assets/screenshots/about.png) | ![](assets/screenshots/contact.png) |
+
+| Weather                             | Todo                             |
+| ----------------------------------- | -------------------------------- |
+| ![](assets/screenshots/weather.png) | ![](assets/screenshots/todo.png) |
+
+| Dark Mode                             | Mobile View                        |
+| ------------------------------------- | ---------------------------------- |
+| ![](assets/screenshots/dark-mode.png) | ![](assets/screenshots/mobile.png) |
+
+---
+
 # 🔑 Weather API Setup
 
-This project uses the OpenWeather API.
+Create the following file:
 
-Create:
-
-```
+```javascript
 js/config.js
 ```
 
-Add your API key:
+Add your OpenWeather API key:
 
 ```javascript
 export const OPENWEATHER_API_KEY = "YOUR_API_KEY";
 ```
 
-A template configuration file is already included:
-
-```
-js/config.example.js
-```
+A template file (`config.example.js`) is already included.
 
 ---
 
-# ▶️ Running the Project
+# ▶️ Getting Started
 
-1. Clone the repository.
+### Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone <YOUR_GITHUB_REPOSITORY_URL>
 ```
 
-2. Open the project folder.
+### Navigate to the project
 
-3. Create:
-
+```bash
+cd TechNova
 ```
+
+### Configure the API
+
+Create:
+
+```text
 js/config.js
 ```
 
-4. Add your OpenWeather API key.
+Add your OpenWeather API key.
 
-5. Launch the project using **Live Server** in Visual Studio Code.
+### Run the project
+
+Open the project using **Live Server** in Visual Studio Code.
 
 ---
 
 # 📱 Responsive Design
 
-The website is optimized for:
+Optimized for:
 
 * Desktop
 * Laptop
@@ -248,24 +256,46 @@ The website is optimized for:
 
 ---
 
-# 🎯 Task 4 Objectives Completed
+# 🎯 Internship Objectives Completed
+
+### ✅ Task 1
+
+* Responsive multi-page website
+* Modern UI
+* Responsive navigation
+* Product pages
+
+### ✅ Task 2
+
+* Interactive JavaScript components
+* Hero slider
+* Product filtering
+* Search functionality
+* Dark mode
+
+### ✅ Task 3
+
+* Weather Dashboard
+* Todo Manager
+* API integration
+* Local Storage
+* Product Quick View
+
+### ✅ Task 4
 
 * Performance Optimization
-* Image Optimization
-* Lazy Loading
-* Minified Assets
-* Google Lighthouse Testing
-* Meta Tags
-* Open Graph Tags
-* Favicon Integration
-* robots.txt
-* sitemap.xml
-* Semantic HTML
-* Accessibility Improvements
-* CSS Modularization
-* JavaScript Modularization
-* BEM Naming Convention
-* Clean Code Organization
+* SEO Improvements
+* Accessibility Enhancements
+* Code Refactoring
+* CSS & JavaScript Modularization
+
+### ✅ Task 5
+
+* Cross-browser testing
+* Documentation
+* GitHub deployment
+* Live website deployment
+* Final project submission
 
 ---
 
@@ -274,7 +304,20 @@ The website is optimized for:
 The OpenWeather API key is **not committed** to GitHub.
 
 * `config.js` is ignored using `.gitignore`
-* `config.example.js` is included for easy setup
+* `config.example.js` is provided for easy setup
+
+---
+
+# 🚀 Future Enhancements
+
+* User Authentication
+* Shopping Cart
+* Wishlist
+* Product Reviews
+* Payment Gateway
+* Order Tracking
+* Backend Integration
+* Admin Dashboard
 
 ---
 
@@ -282,6 +325,8 @@ The OpenWeather API key is **not committed** to GitHub.
 
 **Sahil**
 
-ApexPlanet Software Pvt. Ltd. Internship Project – Task 4
+Front-End Development Internship Project
 
-Built with ❤️ using HTML5, CSS3, and Vanilla JavaScript.
+**ApexPlanet Software Pvt. Ltd.**
+
+Built with ❤️ using **HTML5, CSS3, and Vanilla JavaScript**.
