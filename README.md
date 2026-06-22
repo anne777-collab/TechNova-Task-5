@@ -8,9 +8,9 @@ TechNova demonstrates modern front-end development practices through a responsiv
 
 ## 🌐 Live Demo
 
-**Live Website:** `<LIVE_DEMO_URL>`
+**Live Website:** `<https://technovatask.netlify.app/>`
 
-**GitHub Repository:** `<YOUR_GITHUB_REPOSITORY_URL>`
+**GitHub Repository:** `<https://github.com/anne777-collab/TechNova-Task-5>`
 
 ---
 
